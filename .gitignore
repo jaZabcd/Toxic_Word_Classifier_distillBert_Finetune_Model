@@ -1,0 +1,17 @@
+# Ignore model files
+toxic_model/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+toxenv/
+
+# System files
+.DS_Store
+Thumbs.db
