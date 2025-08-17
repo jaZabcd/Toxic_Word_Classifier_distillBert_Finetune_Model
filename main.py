@@ -11,7 +11,7 @@ pipe = TextClassificationPipeline(model=model, tokenizer=tokenizer, device=-1)  
 id2label = {0: "non-toxic", 1: "toxic"}  # <-- adjust to your dataset
 
 # Run prediction
-pred = pipe("fuck off bitch")[0]
+pred = pipe("how are youo")[0]
 
 # Map label
 pred["label"] = id2label[int(pred["label"].split("_")[-1])]
